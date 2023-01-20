@@ -1,0 +1,22 @@
+{
+    "name": "certification",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "setup": "node setup.js",
+        "create_allowance": "node create_allowance.js",
+        "multi_signature": "node multi_signature.js",
+        "consensus_service": "node consensus_service.js",
+        "token_service": "node token_service.js",
+        "scheduled_transaction": "node scheduled_transaction.js",
+        "smart_contract_service": "node smart_contract_service.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@hashgraph/sdk": "^2.19.2",
+        "@remix-project/remixd": "^0.6.2",
+        "@uniswap/lib": "^4.0.1-alpha",
+        "@uniswap/v2-core": "^1.0.1"
+    }
+}
